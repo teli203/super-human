@@ -1,3 +1,11 @@
 body {
-    background: blue;
+    background-color: rgb (237, 237, 237);
+}
+
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px;
 }
