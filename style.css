@@ -10,6 +10,12 @@ body {
   padding: 20px;
 }
 
+.card {
+  flex: 0 0 calc(100% / 6);
+  scroll-snap-align: start;
+  display: flex;
+}
+
 .card img {
   width: 100%;
   height: auto;
