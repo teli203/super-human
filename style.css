@@ -10,10 +10,23 @@ body {
   padding: 20px;
 }
 
+.scroll:hover > :not(:hover) {
+  opacity: 0.3;
+}
+
 .card {
   flex: 0 0 calc(100% / 6);
   scroll-snap-align: start;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 8px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border: 0.9px solid black;
+  border-radius: 8px;
+  box-shadow: 5px 1px 10px 5px grey;
 }
 
 .card img {
@@ -24,5 +37,5 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
