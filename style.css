@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'TurboType';
+  src: url('/assets/turbo-type-font/TurboType-ZpZzl.ttf') format('truetype');
+}
+
 body {
   background-color: rgb (237, 237, 237);
+  font-family: 'TurboType', sans-serif;
 }
 
 .scroll {
