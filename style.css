@@ -10,7 +10,9 @@ body {
   padding: 20px;
 }
 
-.scroll:hover, 
+.scroll:hover > :not(:hover) {
+  opacity: 0.3;
+}
 .card-stack:hover > :not(:hover) {
   opacity: 0.3;
 }
