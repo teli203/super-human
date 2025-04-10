@@ -20,6 +20,7 @@ body {
 .card {
   flex: 0 0 calc(100% / 6);
   scroll-snap-align: start;
+  background: rgb(57, 54, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +34,7 @@ body {
 }
 
 .card img {
+  background: whitesmoke;
   width: 100%;
   height: auto;
   object-fit: cover;
