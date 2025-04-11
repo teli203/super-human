@@ -79,6 +79,18 @@ p {
   border-bottom-right-radius: 10px;
 }
 
+.logo {
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+
+#tw-logo {
+  width: 18%;
+  border: 5px double black;
+  border-radius: 100%;
+}
+
 .contact {
   background: rgba(57, 54, 0, 0.819);
   border: 5px double black;
