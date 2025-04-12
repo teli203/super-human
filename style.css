@@ -14,6 +14,12 @@ body {
   background-attachment: fixed;
 }
 
+#pgh {
+  background: rgba(57, 54, 0, 0.819);
+  width: 100%;
+  padding: .5rem;
+}
+
 .scroll {
   display: flex;
   overflow-x: auto;
