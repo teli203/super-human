@@ -14,6 +14,26 @@ body {
   background-attachment: fixed;
 }
 
+#avatar {
+  animation: 6s infinite anim_8;
+  width: 20%;
+  border: 4.5px double rgb(1, 24, 0);
+  border-radius: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(245, 245, 245, 0.757);
+}
+
+@keyframes anim_8 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 h1 {
   background: rgba(1, 28, 0, 0.71);
   color: rgba(255, 255, 255, 0.644);
@@ -42,22 +62,9 @@ h1 {
   color: rgb(6, 28, 1);
 }
 
-#avatar {
-  animation: 6s infinite anim_8;
-  width: 20%;
-  border: 4.5px double rgb(1, 24, 0);
-  border-radius: 100%;
-  box-shadow: 1px 1px 1px 1px rgba(245, 245, 245, 0.757);
-}
-
-@keyframes anim_8 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 5;
-  }
-  100% {
-    opacity: 0;
-  }
+span {
+  display: block;
+  font-family: cursive;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
