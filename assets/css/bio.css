@@ -14,6 +14,18 @@ body {
   background-attachment: fixed;
 }
 
+#back {
+  position: fixed;
+  margin: 2rem;
+}
+
+a {
+  font-family: 'TurboType';
+  font-size: 25px;
+  color: rgba(248, 250, 248, 0.886);
+  text-decoration: none;
+}
+
 #avatar {
   animation: 6s infinite anim_8;
   width: 20%;
