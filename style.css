@@ -237,4 +237,15 @@ a {
     font-size: 25px;
 
   }
+
+  .logo {
+    display: block;
+    margin: 0;
+    margin-top: .5rem;
+  }
+  
+  .contact-links {
+    display: inline-block;
+    padding: 0;
+  }
 }
