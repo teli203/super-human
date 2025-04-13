@@ -203,6 +203,11 @@ a {
   transform: rotateY(180deg);
 }
 
+#iron-man {
+  height: 90%;
+  width: 85%;
+}
+
 /* Media Query */
 
 @media (max-width: 768px) {
