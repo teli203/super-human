@@ -203,10 +203,8 @@ a {
   transform: rotateY(180deg);
 }
 
-#iron-man {
-  height: 90%;
-  width: 85%;
-}
+/* Individual styled Images */
+
 
 /* Media Query */
 
