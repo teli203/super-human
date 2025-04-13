@@ -1,4 +1,4 @@
-// Card Stack section for 3 top Hero's //
+// Card Stack section for Hero's //
 document.querySelectorAll('.cards').forEach((stack) => {
   stack.querySelectorAll('img').forEach((img) => {
     img.addEventListener('click', () => {
