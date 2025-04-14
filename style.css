@@ -224,9 +224,10 @@ a {
 .tooltip {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
-  padding: 10px 14px;
+  padding: 8px 10px;
+  margin: 0;
   border-radius: 6px;
-  font-size: 0.95rem;
+  font-size: .9rem;
   z-index: 10;
   display: none;
   font-family: sans-serif;
@@ -237,11 +238,34 @@ a {
 .tooltip strong {
   font-size: 1.05rem;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .tooltip span {
   line-height: 1.4;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-panel {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 10px 14px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+  transition: all 0.3s ease;
 }
 
 /* Media Query */
@@ -264,11 +288,6 @@ a {
   .card-stack img {
     width: 70%;
     border-radius: 100%;
-  }
-
-  .tooltip {
-    font-size: 0.9rem;
-    padding: 8px 10px;
   }
 
   .tooltip strong {
