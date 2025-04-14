@@ -1,5 +1,6 @@
 * {
-  margin: 0;
+  
+  margin-left: .1rem;
 }
 
 @font-face {
@@ -217,6 +218,14 @@ a {
 
 .card-back {
   transform: rotateY(180deg);
+}
+
+.card-bio {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  padding: .5rem;
+  margin-bottom: .1rem;
 }
 
 /* Tooltip Styling */
