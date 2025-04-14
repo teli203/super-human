@@ -1,4 +1,5 @@
 // Card Stack section for Hero's //
+
 document.querySelectorAll('.cards').forEach((stack) => {
   stack.querySelectorAll('img').forEach((img) => {
     img.addEventListener('click', () => {
@@ -12,7 +13,59 @@ document.querySelectorAll('.cards').forEach((stack) => {
   });
 });
 
-//* Card Flipping Action *//
+// Card Flipping Action //
+
 function flipCard(card) {
   card.classList.toggle('flipped');
 }
+
+// Tooltip Action For Villains //
+
+const cards = document.querySelectorAll('.cards');
+
+cards.forEach((card) => {
+  const images = card.querySelectorAll('img');
+  let currentIndex = 0;
+  let tooltipVisible = false;
+
+  // Create a tooltip div for this card //
+
+  const tooltip = document.createElement('div');
+  tooltip.classList.add('tooltip');
+  card.appendChild(tooltip);
+
+  images.forEach((img, index) => {
+    img.style.display = index === 0 ? 'block' : 'none'; // Only show first image
+  });
+
+  // Add click listener to the card //
+
+  card.addEventListener('click', () => {
+    const currentImg = images[currentIndex];
+
+    if (!tooltipVisible) {
+      const name = currentImg.getAttribute('data-title') || 'Name Unknown';
+      const bio = currentImg.getAttribute('data-bio') || 'Bio not available.';
+      tooltip.innerHTML = `<strong>${name}</strong><br><span>${bio}</span>`;
+
+      // Position tooltip over the image //
+
+      tooltip.style.display = 'block';
+      tooltip.style.position = 'absolute';
+      tooltip.style.top = `${currentImg.offsetTop + 10}px`;
+      tooltip.style.left = `${currentImg.offsetLeft + 10}px`;
+      tooltip.style.width = `${currentImg.offsetWidth - 20}px`;
+      tooltip.style.height = 'fit-content';
+
+      tooltipVisible = true;
+    } else {
+      // Hide tooltip and show next image //
+      tooltip.style.display = 'none';
+      tooltipVisible = false;
+
+      images[currentIndex].style.display = 'none';
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].style.display = 'block';
+    }
+  });
+});
