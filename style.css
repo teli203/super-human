@@ -74,6 +74,18 @@ h2 {
   font-size: 40px;
 }
 
+h4 {
+  display: flex;
+  font-size: 20px;
+  color: rgba(245, 245, 245, 0.923);
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  margin: 1rem;
+  background: rgba(42, 31, 0, 0.783);
+  border-radius: 8px;
+}
+
 p {
   background: rgba(245, 245, 245, 0.901);
   font-size: 20px;
