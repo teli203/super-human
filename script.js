@@ -69,3 +69,25 @@ cards.forEach((card) => {
     }
   });
 });
+
+
+// Select the card with ID 'btm_vs'
+
+const card = document.getElementById('btm_vs');
+const img = card.querySelector('img');
+const infoPanel = card.querySelector('.info-panel');
+
+let panelVisible = false;
+
+img.addEventListener('click', () => {
+  if (!panelVisible) {
+    const name = img.getAttribute('data-title-2') || 'Name Unknown';
+    const bio = img.getAttribute('data-bio-2') || 'Bio not available.';
+    infoPanel.innerHTML = `<strong>${name}</strong><br><br><span>${bio}</span>`;
+    infoPanel.style.display = 'block';
+    panelVisible = true;
+  } else {
+    infoPanel.style.display = 'none';
+    panelVisible = false;
+  }
+});
