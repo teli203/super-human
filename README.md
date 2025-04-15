@@ -28,7 +28,7 @@ I truly enjoyed building this project.. and not because I love a good super hero
 <img  />
 
 ### Bio
-<img  />
+<img width="1438" alt="Image" src="https://github.com/user-attachments/assets/eebf154c-4564-4ce5-bbc7-7b95e0eb7c6b" />
 
 ## 🎯 Usage
 
