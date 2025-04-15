@@ -24,13 +24,22 @@ I truly enjoyed building this project.. and not because I love a good super hero
 
 ## 📸 Screenshots
 
-### Blog
-<img  />
+### Blog:
+## Light: ☀️ Mode
 
-### Bio
+<img width="1438" alt="Image" src="https://github.com/user-attachments/assets/888fcf60-2414-4b76-b3d7-29d5d94f3484" />
+
+
+## Dark: 🌙 Mode
+
+<img width="1438" alt="Image" src="https://github.com/user-attachments/assets/40d2213c-e957-42eb-908e-422a55b21f70" />
+
+### Bio:
 <img width="1438" alt="Image" src="https://github.com/user-attachments/assets/eebf154c-4564-4ce5-bbc7-7b95e0eb7c6b" />
 
-## 🎯 Usage
+⚡️ I may have gotten a little carried away with this bio.. yup I did. But see if you can catch all my word plays on certain words in here. I may have to add writer to the resume 😵‍💫 🥴 😝.
+
+## 🎯 Usage:
 
 To explore and modify the project:
 
