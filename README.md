@@ -25,11 +25,12 @@ I truly enjoyed building this project.. and not because I love a good super hero
 ## 📸 Screenshots
 
 ### Blog:
-Light: ☀️ Mode
+## Light: ☀️ Mode
 
 <img width="1438" alt="Image" src="https://github.com/user-attachments/assets/888fcf60-2414-4b76-b3d7-29d5d94f3484" />
 
-Dark: 🌙 Mode
+
+## Dark: 🌙 Mode
 
 <img width="1438" alt="Image" src="https://github.com/user-attachments/assets/40d2213c-e957-42eb-908e-422a55b21f70" />
 
