@@ -73,7 +73,7 @@ h2 {
   background: rgba(245, 245, 245, 0.901);
   font-size: 30px;
   padding: 0.4rem;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 h4 {
@@ -335,6 +335,11 @@ button {
   box-sizing: border-box;
   text-align: justify;
   transition: all 0.3s ease;
+}
+
+.end-note a {
+  padding: 1rem;
+  color: black;
 }
 
 /* Media Query */
