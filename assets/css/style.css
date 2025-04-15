@@ -71,7 +71,9 @@ body {
 
 h2 {
   background: rgba(245, 245, 245, 0.901);
-  font-size: 40px;
+  font-size: 30px;
+  padding: .4rem;
+  margin-bottom: 0;
 }
 
 h4 {
@@ -222,9 +224,9 @@ a {
 .card-bio {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 13px;
-  text-align: justify;
+  text-align: left;
   padding: 0.5rem;
-  margin-bottom: 0.1rem;
+  margin-bottom: 3rem;
 }
 
 /* Modal Section */
