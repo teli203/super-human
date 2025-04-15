@@ -70,8 +70,7 @@ cards.forEach((card) => {
   });
 });
 
-
-// Select the card with ID 'btm_vs'
+// Select the card with ID 'btm_vs' //
 
 document.addEventListener('DOMContentLoaded', () => {
   const cards = document.querySelectorAll('.btm_vs');
@@ -95,3 +94,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Open modals //
+
+document.getElementById('contactBtn').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('contactModal').style.display = 'block';
+});
+
+document.getElementById('followBtn').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('followModal').style.display = 'block';
+});
+
+// Close modal function //
+
+function closeModal(id) {
+  document.getElementById(id).style.display = 'none';
+}
+
+// Close modal if user clicks outside content //
+
+window.onclick = function (event) {
+  const contact = document.getElementById('contactModal');
+  const follow = document.getElementById('followModal');
+  if (event.target == contact) contact.style.display = 'none';
+  if (event.target == follow) follow.style.display = 'none';
+};
