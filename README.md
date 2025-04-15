@@ -1,4 +1,4 @@
-
+<img width="1438" alt="Image" src="https://github.com/user-attachments/assets/69910451-74ab-45b1-afef-c2f616a1865f" />
 
  ## Super Humans of Cinema
 
