@@ -37,6 +37,8 @@ I truly enjoyed building this project.. and not because I love a good super hero
 ### Bio:
 <img width="1438" alt="Image" src="https://github.com/user-attachments/assets/eebf154c-4564-4ce5-bbc7-7b95e0eb7c6b" />
 
+⚡️ I may have gotten a little carried away with this bio.. yup I did. But see if you can catch all my word plays on certain words in here. I may have to add writer to the resume 😵‍💫 🥴 😝.
+
 ## 🎯 Usage:
 
 To explore and modify the project:
