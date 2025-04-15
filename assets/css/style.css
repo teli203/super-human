@@ -1,5 +1,5 @@
 * {
-  margin-left: .1rem;
+  margin-left: 0.1rem;
 }
 
 @font-face {
@@ -80,7 +80,7 @@ h4 {
   color: rgba(245, 245, 245, 0.923);
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 1rem;
   background: rgba(42, 31, 0, 0.783);
   border-radius: 8px;
@@ -138,7 +138,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 60px;
-  text-align: initial; 
+  text-align: initial;
   padding: 40px;
   background: rgba(0, 0, 0, 0.6);
   border: 2px solid #3b010198;
@@ -223,8 +223,67 @@ a {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 13px;
   text-align: justify;
-  padding: .5rem;
-  margin-bottom: .1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+/* Modal Section */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: rgba(250, 250, 248, 0.895);
+  margin: 10% auto;
+  padding: 10%;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  margin: 5px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #333;
+  color: white;
+  border: none;
 }
 
 /* Tooltip Styling */
@@ -235,7 +294,7 @@ a {
   padding: 8px 10px;
   margin: 0;
   border-radius: 6px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   z-index: 10;
   display: none;
   font-family: sans-serif;
@@ -305,7 +364,6 @@ a {
   .tooltip span {
     font-size: 0.85rem;
   }
-
 }
 
 @media (max-width: 430px) {
