@@ -84,3 +84,10 @@ span {
 p {
   color: rgba(248, 250, 248, 0.886);
 }
+
+footer {
+  background-color: rgba(248, 250, 248, 0.886);
+  padding: .2rem;
+  border: 3.5px double rgba(1, 42, 1, 0.581);
+  border-radius: 9%;
+}
