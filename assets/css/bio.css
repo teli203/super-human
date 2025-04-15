@@ -91,3 +91,11 @@ footer {
   border: 3.5px double rgba(1, 42, 1, 0.581);
   border-radius: 9%;
 }
+
+/* Meida Query */
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 20px;
+  }
+}
