@@ -2,7 +2,7 @@
 
  ## Super Humans of Cinema
 
-💥💥💥 [Super Humans of Cinema](https://super-humans.vercel.app/index.html) 💥💥💥
+💥💥💥 [Super Humans of Cinema](https://super-humans.vercel.app/) 💥💥💥
 
 This project showcases a collection of professionally designed super heroe's and villains comic images. Majority of these images can be found on [Pinterest](https://www.pinterest.com/). I recently had the chance to collaborate with an artist on designing a landing page for her artwork. She was incredibly inspiring working with her made me realize how much creativity web developers and artists actually share. Initially, she wanted to build the site herself but found the process frustrating and felt limited by website builders. She was looking for something more personal, yet flexible enough for her to update on her own whenever inspiration struck.
 
